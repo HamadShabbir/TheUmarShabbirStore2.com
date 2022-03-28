@@ -1,0 +1,94 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+.wrapper{
+    background: url(umar.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(red, green, blue, alpha);
+}
+.logo{
+width: 180px;
+height: 150px;
+padding: 20px 80px; 
+float: inline-start;   
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 6px;
+    display: inline-block;
+    line: height 80px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:  20px;
+    padding: 6px 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: .3s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 900px;
+    text-align:center;
+}
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 880px;
+    text-align:center;
+    margin-top: 20px;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width:150px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#ffb3b3;
+    background:red;
+    border: 4px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.buttons .btn{
+    margin-left: 30px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
+
+
